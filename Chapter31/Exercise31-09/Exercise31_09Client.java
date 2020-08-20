@@ -7,7 +7,8 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
-import javafx.stage.Stage;import java.io.*;
+import javafx.stage.Stage;
+import java.io.*;
 import java.net.*;
 import java.util.*;
 

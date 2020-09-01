@@ -1,4 +1,8 @@
-
+/**
+* Author: Adam Grimshaw - author for dfsNonRecurs method only. Other methods were supplied with the assignment.
+* Date: 8/4/20
+* Description: Class and methods for an unweighted graph. Includes search methods.
+*/
 import java.util.*;
 
 public class UnweightedGraph<V> implements Graph<V> {
@@ -42,6 +46,7 @@ public class UnweightedGraph<V> implements Graph<V> {
 		createAdjacencyLists(edges, numberOfVertices);
 	}
 	
+	/** Performs a depth first search without using recursion. */
 	public SearchTree dfsNonRecurs(int v) {
 		// Will store what vertex leads to it
 		int[] parent = new int[vertices.size()];

@@ -22,7 +22,7 @@ public class Server extends Application {
    
     // Create a scene and place it in the stage
     Scene scene = new Scene(new ScrollPane(ta), 400, 200);
-    primaryStage.setTitle("Exercise31_01Server"); // Set the stage title
+    primaryStage.setTitle("Server"); // Set the stage title
     primaryStage.setScene(scene); // Place the scene in the stage
     primaryStage.show(); // Display the stage
     
@@ -73,16 +73,9 @@ public class Server extends Application {
 		catch(IOException ex) {
 			ex.printStackTrace();
 		}
-		/*catch(ClassNotFoundException ex) {
-			ex.printStackTrace();
-		}*/
 	}).start();
     
-  }
-
-  
-  
-    
+  }    
   /**
    * The main method is only needed for the IDE with limited
    * JavaFX support. Not needed for running from the command line.
